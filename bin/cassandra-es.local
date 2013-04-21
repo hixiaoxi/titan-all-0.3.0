@@ -1,0 +1,7 @@
+storage.backend=cassandrathrift
+storage.hostname=127.0.0.1
+
+storage.index.search.backend=com.thinkaurelius.titan.diskstorage.es.ElasticSearchIndex
+storage.index.search.local-mode=true
+storage.index.search.directory=/tmp/titan/es
+storage.index.search.client-only=false
